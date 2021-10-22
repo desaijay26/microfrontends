@@ -4,7 +4,7 @@ import {StylesProvider, createGenerateClassName} from '@material-ui/core/styles'
 
 
 import Landing from './components/Landing';
-import Pricing from './components/Pricing';
+import Marketing from './components/Marketing';
 
 
 const generateClassName = createGenerateClassName({
@@ -16,7 +16,7 @@ export default({history}) =>{
         <StylesProvider generateClassName={generateClassName}>
             <Router history={history}>
                 <Switch>
-                    <Route exact path="/data" component={Pricing} />
+                    <Route exact path="/data" component={Marketing} />
                     <Route path="/" component={Landing} />
                 </Switch>
             </Router>

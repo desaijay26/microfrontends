@@ -139,7 +139,7 @@ const footers = [
   },
 ];
 
-export default function Pricing() {
+export default function Marketing() {
   const classes = useStyles();
 
   return (
